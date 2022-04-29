@@ -1,0 +1,241 @@
+html {
+  
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  
+}
+
+.all-header {
+  
+
+  position: fixed;
+  /* display: block; */
+  top: 0;
+  z-index: 1;
+  background-color: white !important;
+}
+
+.h-content,
+select {
+  color: #052f5f;
+}
+.Sign-in-btn {
+  color: #052f5f;
+}
+
+.Sign-in-btn button {
+  color: #1b1dc7;
+  cursor: pointer;
+}
+
+.your-credit-text h1 {
+  width: 65%;
+  font-size: 1.7rem;
+  color: #2428e4;
+  cursor: pointer;
+}
+
+.your-credit-text p {
+  font-size: 1rem;
+  color: #052f5f;
+  opacity: 0.5;
+}
+
+.your-credit-text button {
+  background-color: #1b1dc7;
+}
+
+.container-fluid-1 {
+  border-bottom: 4px solid #e8eef8;
+}
+
+.card-main-h {
+  color: #1b1dc7;
+}
+
+.card-body{
+  cursor: pointer;
+}
+
+.cart-bio h5,
+h6 {
+  width: 65%;
+  color: #052f5f;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cart-bio p {
+  font-size: 0.8rem;
+  color: #69829f;
+}
+
+.card-text {
+  width: 81%;
+}
+
+.cart-second h5 {
+  font-size: 1rem;
+}
+
+.c-text {
+  font-size: 0.8rem;
+}
+.crt-img img {
+  width: 7rem;
+}
+.pb-feature-section button {
+  font-size: 0.8rem;
+}
+
+.pb-img img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.pb-desc {
+  color: #69829f;
+  line-height: 1.5;
+  font-size: 0.9rem;
+}
+
+.about-us {
+  margin-left: auto;
+  width: 28rem;
+  height: 30rem;
+  border-radius: .5rem;
+  background: linear-gradient(135deg, #bfe9fd 0, #3cc2ff 100%);
+}
+
+.work-us {
+  width: 28rem;
+  height: 30rem;
+  border-radius: .5rem;
+  background: linear-gradient(135deg, #9effdc 0, #00ef87 100%);
+}
+
+.about-us button{
+  padding: 1.5rem 2rem 1.5rem 2rem;
+  
+}
+.work-us button{
+  padding: 1.5rem 3.3rem 1.5rem 3.3rem;
+}
+
+.btn-abw button{
+  border-radius: .3rem;
+}
+
+.partners-sections{
+  background-color: #f3f9ff;
+}
+.p-dsc li{
+  color: #052f5f;
+}
+
+.b-txt{
+  border-radius: .3rem;
+  border: 1px solid #1b1dc7;
+}
+
+/* .btn-t{
+  justify-content: center;
+  display: flex;
+  border: 3px solid;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  width: 15rem;
+  height: 8rem;
+  background-color: #fff;
+} */
+
+/* .btn-t img{
+  width: 10rem;
+} */
+
+.partnerCard img{
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  align-items: center;
+  width: 75%;
+  height: 100%;
+}
+
+.partnerCard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 9rem;
+}
+
+.footer-down{
+  background-color: #0e0f20;
+}
+
+.top-head p{
+  font-size: 1rem;
+}
+.investor{
+  background-color: #1c1d2e;
+}
+
+.aur-investor-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 5rem;
+  background-color: black;
+}
+
+.aur-investor-card img{
+  height: 6rem;
+  width: 7rem;
+  /* background-color: #0e0f20;  */
+}
+
+.paisabazaar,.group-brand{
+  cursor: pointer;
+}
+
+.paisabazaar li{
+  color: grey;
+  font-size: .9rem;
+}
+.group-brand li{
+  font-size: .9rem;
+  color: gray;
+}
+.middle-f{
+  cursor: pointer;
+}
+.social-app{
+  background-color: #1c1d2e;
+
+}
+.invest p{
+  font-size: .9rem;
+  color: grey;
+}
+.p-txt p{
+  font-size: .7rem;
+}
+
+.f-ts p{
+  font-size: .6rem;
+}
+
+.ind-text{
+  font-size: .7rem;
+}
+.forEffect{
+  transition: transform .2s; 
+}
+.forEffect:hover{
+  transform: scale(1.1);
+  
+  /* background-color: red; */
+}
