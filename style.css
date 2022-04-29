@@ -7,19 +7,19 @@ html {
 }
 
 .all-header {
-  
 
   position: fixed;
-  /* display: block; */
   top: 0;
   z-index: 1;
   background-color: white !important;
+
 }
 
 .h-content,
 select {
   color: #052f5f;
 }
+
 .Sign-in-btn {
   color: #052f5f;
 }
@@ -67,7 +67,7 @@ h6 {
 }
 
 .cart-bio p {
-  font-size: 0.8rem;
+  font-size: 14px;
   color: #69829f;
 }
 
@@ -87,6 +87,7 @@ h6 {
 }
 .pb-feature-section button {
   font-size: 0.8rem;
+  padding: .7rem 1.5rem .7rem 1.5rem;
 }
 
 .pb-img img {
@@ -125,6 +126,7 @@ h6 {
 
 .btn-abw button{
   border-radius: .3rem;
+
 }
 
 .partners-sections{
@@ -139,25 +141,12 @@ h6 {
   border: 1px solid #1b1dc7;
 }
 
-/* .btn-t{
-  justify-content: center;
-  display: flex;
-  border: 3px solid;
-  padding-left: 3rem;
-  padding-right: 3rem;
-  width: 15rem;
-  height: 8rem;
-  background-color: #fff;
-} */
-
-/* .btn-t img{
-  width: 10rem;
-} */
-
+.about-work-sections{
+  background-color: #f3f9ff;
+}
 .partnerCard img{
   display: flex;
   justify-content: center;
-  /* align-content: center; */
   align-items: center;
   width: 75%;
   height: 100%;
@@ -188,13 +177,12 @@ h6 {
   align-items: center;
   height: 3rem;
   width: 5rem;
-  background-color: black;
+  background-color: rgb(11, 10, 10);
 }
 
 .aur-investor-card img{
-  height: 6rem;
-  width: 7rem;
-  /* background-color: #0e0f20;  */
+  height: 1.5rem;
+  width: 4rem;
 }
 
 .paisabazaar,.group-brand{
@@ -203,10 +191,10 @@ h6 {
 
 .paisabazaar li{
   color: grey;
-  font-size: .9rem;
+  font-size: 14px;
 }
 .group-brand li{
-  font-size: .9rem;
+  font-size: 14px;
   color: gray;
 }
 .middle-f{
@@ -224,8 +212,16 @@ h6 {
   font-size: .7rem;
 }
 
+.pb-hed p{
+  font-size: 16px;
+}
+
 .f-ts p{
   font-size: .6rem;
+}
+.s-icon ion-icon{
+  width: 20px;
+  height: 20px;
 }
 
 .ind-text{
@@ -235,7 +231,7 @@ h6 {
   transition: transform .2s; 
 }
 .forEffect:hover{
-  transform: scale(1.1);
-  
-  /* background-color: red; */
-}
+  /* transform: scale(1.1); */
+  box-shadow: 0  2px 4px 0 rgb(5 47 95 / 4%), 0 12px 16px 0 rgb(52 105 203 / 12%);
+
+}   
