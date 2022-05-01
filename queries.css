@@ -1,6 +1,274 @@
 @media (max-width: 1000px) {
-  body{
-    width: 100%;
-    height: 100%;
+  .h-content select,
+  option {
+    display: none;
+  }
+
+  .container-f {
+    position: relative;
+    top: 2rem;
+  }
+  .p-b-img img {
+    width: 20rem !important;
+  }
+
+  .Sign-in-btn button {
+    font-size: 2rem;
+  }
+
+  .your-credit-text p {
+    font-size: 1.5rem !important;
+  }
+
+  .cart-bio h5 {
+    font-size: 2rem !important;
+  }
+  .card-body {
+    height: 18rem !important;
+  }
+
+  .forEffect {
+    margin-bottom: 1.5rem;
+  }
+
+  .lll {
+    display: none !important;
+  }
+
+  .pb-img img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .text-primary {
+    font-size: 1.5rem !important;
+  }
+
+  .pb-desc {
+    font-size: 1.5rem;
+  }
+
+  .card-body-1 {
+    height: 10rem !important;
+  }
+  .c-text {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 775px){
+  .about-work-block {
+    display: grid !important;
+  }
+  .about-us h5{
+    font-size: 5rem !important;
+  } 
+  .about-us p{
+    font-size: 2.5rem !important;
+  }
+  .about-us{
+    margin-bottom: 5rem;
+    width: 65rem;
+    height: 42rem;
+  }
+  .about-img img{
+    width: 30rem !important;
+  }
+  .card-body-1 {
+    width: 20rem !important;
+    height: 15rem !important;
+  }
+
+  .work-us h5{
+    font-size: 5rem !important;
+  } 
+  .work-us p{
+    font-size: 2.5rem !important;
+  }
+  .work-us{
+    width: 65rem;
+    height: 42rem;
+  }
+  .work-us img{
+    width: 30rem !important;
+  }
+  .your-credit-tex p{
+    color: #1b1dc7;
+  }
+  .mo-li li{
+    color: #052f5f;
+    font-size: 2rem !important;
+  }
+  .your-credit-tex button{
+    background-color: #1b1dc7;
+    border-radius: .5 rem !important;
+  }
+  .mobile-img{
+    display: none !important;
+  }
+  .mob-img-sec{
+    display: block !important;
+  }
+  .container-f{
+    margin-top: 6rem !important;
+  }
+  .txt-p{
+    font-size: 2rem !important;
+  }
+  .p-dsc li{
+    font-size: 1.5rem;
+  }
+  .download-section p{
+    font-size: 1.5rem !important;
+  }
+
+  .invest p{
+    font-size: 2rem;
+  }
+  .p-b-group{
+    flex-direction: column;
+  }
+  
+  .down-l p{
+    font-size: 2.5rem;
+  }
+  .google-apple{
+    margin-bottom: 1.5rem !important;
+  }
+
+  .google-apple img{
+    width: 20rem !important;
+  }
+
+  .invest{
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .s-icon{
+    display: flex;
+  }
+
+  .mo-i{
+    margin-left: auto !important  ;
+    margin-right: auto !important;
+  }
+  .all-pay{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: start;
+
+  }
+  .p-img img{
+    width: 7rem !important;
+  }
+  .p-txt p{
+    font-size: 2rem !important;
+  }
+  .pay-app{
+    margin-left: -1rem !important;
+  }
+  .top-head p{
+    font-size: 2rem !important;
+  }
+  .our-text p{
+    font-size: 2rem !important;
+  }
+  .aur-investor-card{
+    width: 8rem !important;
+    height: 5rem !important;
+  }
+  .s-icon{
+    display: flex;
+    margin-left: -3rem ;
+    gap: 4rem;
+    margin-bottom: 2rem;
+  }
+  .social-app{
+    display: flex !important;
+  }
+  .india-footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .f-ts p{
+    font-size: 1.7rem !important;
+  }
+  .ind-lodos img{
+    width: 7rem !important;
+  }
+  .m-i{
+    margin-left: 1.2rem !important;
+  }
+  .ind{
+    display: none !important;
+  }
+  .investor{
+    display: none !important;
+  }
+  .m-pb{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .mb-top{
+    margin-top: 5rem !important;
+  }
+}
+@media (max-width: 550px){
+  .first{
+    display: flex;
+  }
+  .invest p{
+    font-size: 3rem !important;
+  }
+  .im-b-img img{
+    width: 30rem !important;
+  }
+  .card-body{
+    width: 98rem !important;
+    height: 20rem !important;
+  }
+  .cart-bio h5{
+    font-size: 3rem !important;
+  }
+  .cart-bio img{
+    width: 8rem !important;
+  }
+  .cart-bio p{
+    font-size: 2.5rem !important;
+  }
+  .c-text{
+    font-size: 1.8rem !important;
+  }
+  .text-primary{
+    font-size: 2.5rem !important;
+  }
+  .pb-desc{
+    font-size: 2rem !important;
+  }
+  .p-dsc li{
+    font-size: 2rem !important;
+  }
+  .im-b-img{
+    display: flex !important;
+    justify-content: center;
+  }
+  .your-credit-tex p,button{
+    list-style: none;
+    text-align: center;
+  }
+  .your-credit-tex li{
+    display: flex;
+    justify-content: center !important;
+  }
+  .your-credit-tex button{
+    display: flex;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .second{
+    padding-left: 1rem !important;
+  }
+  .all-pay{
+    padding-left: 1rem !important;
   }
 }

@@ -1,34 +1,35 @@
 html {
-  
   font-size: 1vw;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-  
+}
+.test-top {
+  box-shadow: 0 8px 24px 0 rgb(23 50 101 / 30%) !important  ;
+
+  background-color: black !important;
 }
 
 .all-header {
-
+  padding-top: 18px;
+  padding-bottom: 18px;
   position: fixed;
   top: 0;
   z-index: 1;
+  box-shadow: 0 8px 24px 0 rgb(23 50 101 / 30%);
   background-color: white !important;
-
 }
 
 .h-content,
 select {
   color: #052f5f;
 }
-
 .Sign-in-btn {
   color: #052f5f;
 }
-
 .Sign-in-btn button {
   color: #1b1dc7;
   cursor: pointer;
 }
-
 .your-credit-text h1 {
   width: 65%;
   font-size: 1.7rem;
@@ -54,7 +55,7 @@ select {
   color: #1b1dc7;
 }
 
-.card-body{
+.card-body {
   cursor: pointer;
 }
 
@@ -64,6 +65,9 @@ h6 {
   color: #052f5f;
   font-size: 1rem;
   font-weight: 600;
+}
+.mob-img-sec {
+  display: none !important;
 }
 
 .cart-bio p {
@@ -87,7 +91,7 @@ h6 {
 }
 .pb-feature-section button {
   font-size: 0.8rem;
-  padding: .7rem 1.5rem .7rem 1.5rem;
+  padding: 0.7rem 1.5rem 0.7rem 1.5rem;
 }
 
 .pb-img img {
@@ -105,46 +109,44 @@ h6 {
   margin-left: auto;
   width: 28rem;
   height: 30rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background: linear-gradient(135deg, #bfe9fd 0, #3cc2ff 100%);
 }
 
 .work-us {
   width: 28rem;
   height: 30rem;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   background: linear-gradient(135deg, #9effdc 0, #00ef87 100%);
 }
 
-.about-us button{
+.about-us button {
   padding: 1.5rem 2rem 1.5rem 2rem;
-  
 }
-.work-us button{
+.work-us button {
   padding: 1.5rem 3.3rem 1.5rem 3.3rem;
 }
 
-.btn-abw button{
-  border-radius: .3rem;
-
+.btn-abw button {
+  border-radius: 0.3rem;
 }
 
-.partners-sections{
+.partners-sections {
   background-color: #f3f9ff;
 }
-.p-dsc li{
+.p-dsc li {
   color: #052f5f;
 }
 
-.b-txt{
-  border-radius: .3rem;
+.b-txt {
+  border-radius: 0.3rem;
   border: 1px solid #1b1dc7;
 }
 
-.about-work-sections{
+.about-work-sections {
   background-color: #f3f9ff;
 }
-.partnerCard img{
+.partnerCard img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,7 +154,7 @@ h6 {
   height: 100%;
 }
 
-.partnerCard{
+.partnerCard {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,18 +162,18 @@ h6 {
   width: 9rem;
 }
 
-.footer-down{
+.footer-down {
   background-color: #0e0f20;
 }
 
-.top-head p{
+.top-head p {
   font-size: 1rem;
 }
-.investor{
+.investor {
   background-color: #1c1d2e;
 }
 
-.aur-investor-card{
+.aur-investor-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,58 +182,56 @@ h6 {
   background-color: rgb(11, 10, 10);
 }
 
-.aur-investor-card img{
+.aur-investor-card img {
   height: 1.5rem;
   width: 4rem;
 }
 
-.paisabazaar,.group-brand{
+.paisabazaar,
+.group-brand {
   cursor: pointer;
 }
 
-.paisabazaar li{
+.paisabazaar li {
   color: grey;
   font-size: 14px;
 }
-.group-brand li{
+.group-brand li {
   font-size: 14px;
   color: gray;
 }
-.middle-f{
+.middle-f {
   cursor: pointer;
 }
-.social-app{
+.social-app {
   background-color: #1c1d2e;
-
 }
-.invest p{
-  font-size: .9rem;
+.invest p {
+  font-size: 0.9rem;
   color: grey;
 }
-.p-txt p{
-  font-size: .7rem;
+.p-txt p {
+  font-size: 0.7rem;
 }
 
-.pb-hed p{
+.pb-hed p {
   font-size: 16px;
 }
 
-.f-ts p{
-  font-size: .6rem;
+.f-ts p {
+  font-size: 0.6rem;
 }
-.s-icon ion-icon{
+.s-icon ion-icon {
   width: 20px;
   height: 20px;
 }
 
-.ind-text{
-  font-size: .7rem;
+.ind-text {
+  font-size: 0.7rem;
 }
-.forEffect{
-  transition: transform .2s; 
+.forEffect {
+  transition: transform 0.2s;
 }
-.forEffect:hover{
-  /* transform: scale(1.1); */
-  box-shadow: 0  2px 4px 0 rgb(5 47 95 / 4%), 0 12px 16px 0 rgb(52 105 203 / 12%);
-
-}   
+.forEffect:hover {
+  box-shadow: 0 2px 4px 0 rgb(5 47 95 / 4%), 0 12px 16px 0 rgb(52 105 203 / 12%);
+}
