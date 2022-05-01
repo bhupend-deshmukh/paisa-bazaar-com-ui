@@ -220,6 +220,7 @@
     font-size: 1.7rem !important;
   }
   .ind-lodos img{
+    margin-left: -1rem !important;
     width: 7rem !important;
   }
   .m-i{
@@ -237,8 +238,6 @@
   }
   .mb-top{
     margin-top: 5rem !important;
-  }
-  .invest-div{
   }
 }
 @media (max-width: 550px){
@@ -321,7 +320,13 @@
     margin-left: 2rem !important;
   }
   .none-cart{
-    /* background-color: #1b1dc7; */
     display: none !important;
   }
+  .second{
+    margin-left: 1rem !important;
+  }
+  .invest{
+    margin-left: 1rem !important;
+  }
+
 }
