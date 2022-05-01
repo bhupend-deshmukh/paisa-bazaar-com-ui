@@ -56,6 +56,13 @@
 }
 
 @media (max-width: 775px){
+  .footer-groups{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .p-b-img img{
+    width: 30rem !important;
+  }
   .about-work-block {
     display: grid !important;
   }
@@ -120,6 +127,9 @@
   .download-section p{
     font-size: 1.5rem !important;
   }
+  .invest{
+    flex-direction: column-reverse;
+  }
 
   .invest p{
     font-size: 2rem;
@@ -159,7 +169,14 @@
 
   }
   .p-img img{
+    margin-left: -2rem !important;
     width: 7rem !important;
+  }
+  .mob-fe{
+    margin-left: 5rem;
+  }
+  .wrap-mob{
+    margin-right: -30rem !important;
   }
   .p-txt p{
     font-size: 2rem !important;
@@ -182,6 +199,15 @@
     margin-left: -3rem ;
     gap: 4rem;
     margin-bottom: 2rem;
+  }
+  .first img{
+    margin-left: .5rem !important;
+  }
+  .last-fotter,.payment-method{
+    display: none;
+  }
+  .paisabazaar{
+    margin-left: -.1rem !important;
   }
   .social-app{
     display: flex !important;
@@ -212,8 +238,11 @@
   .mb-top{
     margin-top: 5rem !important;
   }
+  .invest-div{
+  }
 }
 @media (max-width: 550px){
+  
   .first{
     display: flex;
   }
@@ -246,7 +275,10 @@
     font-size: 2rem !important;
   }
   .p-dsc li{
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
+  }
+  .download-section p{
+    font-size: 2.5rem !important;
   }
   .im-b-img{
     display: flex !important;
@@ -270,5 +302,26 @@
   }
   .all-pay{
     padding-left: 1rem !important;
+  }
+
+  /* foooter down temp*/
+  .invest-div{
+    gap: 10rem !important;
+  }
+  .s-icon{
+    gap: 8rem !important;
+  }
+  .group-brand{
+    margin-left: 15rem !important;
+  }
+  .google-apple{
+    gap: 30rem !important;
+  }
+  .mb-footer{
+    margin-left: 2rem !important;
+  }
+  .none-cart{
+    /* background-color: #1b1dc7; */
+    display: none !important;
   }
 }

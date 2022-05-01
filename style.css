@@ -97,6 +97,7 @@ h6 {
 .pb-img img {
   width: 2.5rem;
   height: 2.5rem;
+  margin-left: -16px !important;
 }
 
 .pb-desc {
@@ -234,4 +235,14 @@ h6 {
 }
 .forEffect:hover {
   box-shadow: 0 2px 4px 0 rgb(5 47 95 / 4%), 0 12px 16px 0 rgb(52 105 203 / 12%);
+}
+
+.invest-div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.invest{
+  display: flex;
+  flex-direction: row;
 }
