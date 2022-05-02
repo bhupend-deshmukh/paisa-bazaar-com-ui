@@ -54,6 +54,9 @@
   .c-text {
     font-size: 1.5rem !important;
   }
+  .test1{
+    margin-bottom: 2rem !important;
+  }
 }
 
 @media (max-width: 775px) {
@@ -402,7 +405,6 @@
   .container-f{
     margin-left: 3rem !important;
   }
-  
- 
+
 }
 
