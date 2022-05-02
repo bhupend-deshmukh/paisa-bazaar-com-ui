@@ -328,5 +328,23 @@
   .invest{
     margin-left: 1rem !important;
   }
-
+  .pb-feature {
+    width: 80rem;
+    margin-left: 10rem !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .m-pb{
+    width: 100%;
+  }
+  .m-pb button{
+    margin-left: 30rem !important;
+    width: 100% !important;
+  }
+  .im-b-img{
+    display: flex;
+    margin-top: 3rem !important;
+  }
 }
