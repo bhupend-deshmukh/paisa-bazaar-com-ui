@@ -3,7 +3,6 @@
   option {
     display: none;
   }
-
   .container-f {
     /* display: flex; */
     position: relative;
@@ -46,6 +45,9 @@
 
   .pb-desc {
     font-size: 1.5rem;
+  }
+  .mb-footer{
+    gap: 1.5rem !important;
   }
 
   .card-body-1 {
@@ -386,7 +388,6 @@
   .partners-sections {
     display: none;
   }
- 
   .im-b-img img{
     width: 35rem !important;
   }
