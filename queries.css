@@ -5,6 +5,7 @@
   }
 
   .container-f {
+    /* display: flex; */
     position: relative;
     top: 3rem;
   }
@@ -46,40 +47,38 @@
   .pb-desc {
     font-size: 1.5rem;
   }
+
   .card-body-1 {
     height: 10rem !important;
-  }
-  .test{
-    margin-bottom: 2rem;
   }
   .c-text {
     font-size: 1.5rem !important;
   }
 }
 
-@media (max-width: 775px){
-  .footer-groups{
+@media (max-width: 775px) {
+  .footer-groups {
     flex-direction: column;
     gap: 20px;
   }
-  .p-b-img img{
+  .p-b-img img {
     width: 30rem !important;
   }
   .about-work-block {
     display: grid !important;
   }
-  .about-us h5{
+  .about-us h5 {
     font-size: 5rem !important;
-  } 
-  .about-us p{
+  }
+  .about-us p {
     font-size: 2.5rem !important;
   }
-  .about-us{
+  .about-us {
     margin-bottom: 5rem;
     width: 65rem;
     height: 42rem;
   }
-  .about-img img{
+  .about-img img {
     width: 30rem !important;
   }
   .card-body-1 {
@@ -87,266 +86,260 @@
     height: 15rem !important;
   }
 
-  .work-us h5{
+  .work-us h5 {
     font-size: 5rem !important;
-  } 
-  .work-us p{
+  }
+  .work-us p {
     font-size: 2.5rem !important;
   }
-  .work-us{
+  .work-us {
     width: 65rem;
     height: 42rem;
   }
-  .work-us img{
+  .work-us img {
     width: 30rem !important;
   }
-  .your-credit-tex p{
+  .your-credit-tex p {
     color: #1b1dc7;
   }
-  .mo-li li{
+  .mo-li li {
     color: #052f5f;
     font-size: 2rem !important;
   }
-  .your-credit-tex button{
+  .your-credit-tex button {
     background-color: #1b1dc7;
-    border-radius: .5 rem !important;
+    border-radius: 0.5 rem !important;
   }
-  .mobile-img{
+  .mobile-img {
     display: none !important;
   }
-  .mob-img-sec{
+  .mob-img-sec {
     display: block !important;
   }
-  .container-f{
+  .container-f {
     margin-top: 6rem !important;
   }
-  .txt-p{
+  .txt-p {
     font-size: 2rem !important;
   }
-  .p-dsc li{
+  .p-dsc li {
     font-size: 1.5rem;
   }
-  .download-section p{
+  .download-section p {
     font-size: 1.5rem !important;
   }
-  .invest{
+  .invest {
     flex-direction: column-reverse;
   }
 
-  .invest p{
+  .invest p {
     font-size: 2rem;
   }
-  .p-b-group{
+  .p-b-group {
     flex-direction: column;
   }
-  
-  .down-l p{
+
+  .down-l p {
     font-size: 2.5rem;
   }
-  .google-apple{
+  .google-apple {
     margin-bottom: 1.5rem !important;
   }
 
-  .google-apple img{
+  .google-apple img {
     width: 20rem !important;
   }
 
-  .invest{
+  .invest {
     display: flex !important;
     flex-direction: column;
   }
 
-  .s-icon{
+  .s-icon {
     display: flex;
   }
 
-  .mo-i{
+  .mo-i {
     margin-left: auto !important  ;
     margin-right: auto !important;
   }
-  .all-pay{
+  .all-pay {
     display: flex !important;
     flex-direction: column;
     justify-content: start;
-
   }
-  .p-img img{
+  .p-img img {
     margin-left: -2rem !important;
     width: 7rem !important;
   }
-  .mob-fe{
+  .mob-fe {
     margin-left: 5rem;
   }
-  .wrap-mob{
+  .wrap-mob {
     margin-right: -30rem !important;
   }
-  .p-txt p{
+  .p-txt p {
     font-size: 2rem !important;
   }
-  .pay-app{
+  .pay-app {
     margin-left: -1rem !important;
   }
-  .top-head p{
+  .top-head p {
     font-size: 2rem !important;
   }
-  .our-text p{
+  .our-text p {
     font-size: 2rem !important;
   }
-  .aur-investor-card{
+  .aur-investor-card {
     width: 8rem !important;
     height: 5rem !important;
   }
-  .s-icon{
+  .s-icon {
     display: flex;
-    margin-left: -3rem ;
+    margin-left: -3rem;
     gap: 4rem;
     margin-bottom: 2rem;
   }
-  .first img{
-    margin-left: .5rem !important;
+  .first img {
+    margin-left: 0.5rem !important;
   }
-  .last-fotter,.payment-method{
+  .last-fotter,
+  .payment-method {
     display: none;
   }
-  .paisabazaar{
-    margin-left: -.1rem !important;
+  .paisabazaar {
+    margin-left: -0.1rem !important;
   }
-  .social-app{
+  .social-app {
     display: flex !important;
   }
-  .india-footer{
+  .india-footer {
     display: flex;
     flex-direction: column;
   }
-  .f-ts p{
+  .f-ts p {
     font-size: 1.7rem !important;
   }
-  .ind-lodos img{
+  .ind-lodos img {
     margin-left: -1rem !important;
     width: 7rem !important;
   }
-  .m-i{
+  .m-i {
     margin-left: 1.2rem !important;
   }
-  .ind{
+  .ind {
     display: none !important;
   }
-  .investor{
+  .investor {
     display: none !important;
   }
-  .m-pb{
+  .m-pb {
     display: flex !important;
     flex-direction: column !important;
   }
-  .mb-top{
+  .mb-top {
     margin-top: 5rem !important;
   }
 }
-@media (max-width: 550px){
-  .pb-img{
-    display: flex;
-    justify-content: start;
+@media (max-width: 550px) {
+  .pb-img {
+    margin-left: 1rem;
   }
-  .pb-img img{
-    height: 6rem;
-  }
-  .mobile-cart,.tropy-sec,.about-work-sections,.download-section{
+  .mobile-cart,
+  .tropy-sec,
+  .about-work-sections,
+  .download-section {
     padding: 1rem;
   }
-  .footer-down{
-    padding: 0 .5rem 0 .5rem;
+  .footer-down {
+    padding: 0 0.5rem 0 0.5rem;
   }
 
-  .first{
+  .first {
     display: flex;
   }
-  .invest p{
+  .invest p {
     font-size: 3rem !important;
   }
-  .im-b-img img{
-    width: 30rem !important;
-  }
-  .card-body{
+  .card-body {
     width: 98rem !important;
     height: 20rem !important;
   }
-  .cart-bio h5{
+  .cart-bio h5 {
     font-size: 3rem !important;
   }
-  .cart-bio img{
+  .cart-bio img {
     width: 8rem !important;
   }
-  .cart-bio p{
+  .cart-bio p {
     font-size: 2.5rem !important;
   }
-  .c-text{
+  .c-text {
     font-size: 1.8rem !important;
   }
-  .text-primary{
+  .text-primary {
     font-size: 2.5rem !important;
   }
-  .pb-desc{
+  .pb-desc {
     font-size: 2rem !important;
   }
-  .p-dsc li{
+  .p-dsc li {
     font-size: 2.5rem !important;
   }
-  .download-section p{
+  .download-section p {
     font-size: 2.5rem !important;
   }
-  .mmmm{
+  .mmmm {
     display: flex !important;
   }
-  .im-b-img{
+  .im-b-img {
     display: flex !important;
     justify-content: center;
   }
-  .your-credit-tex p,button{
+  .your-credit-tex p,
+  button {
     list-style: none;
     text-align: center;
   }
-  .your-credit-tex li{
+  .your-credit-tex li {
     display: flex;
     justify-content: center !important;
   }
-  .your-credit-tex button{
+  .your-credit-tex button {
     display: flex;
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  .second{
+  .second {
     padding-left: 1rem !important;
   }
-  .all-pay{
+  .all-pay {
     padding-left: 1rem !important;
   }
 
   /* foooter down temp*/
-  .invest-div{
+  .invest-div {
     gap: 10rem !important;
   }
-  .s-icon{
+  .s-icon {
     gap: 8rem !important;
   }
-  .group-brand{
+  .group-brand {
     margin-left: 10rem !important;
   }
-  .google-apple{
+  .google-apple {
     gap: 30rem !important;
   }
-  .mb-footer{
+  .mb-footer {
     margin-left: 2rem !important;
   }
-  .pb-img{
-    margin-left: 2rem !important;
-  }
-  .none-cart{
+  .none-cart {
     display: none !important;
   }
-  .second{
+  .second {
     margin-left: 1rem !important;
   }
-  .invest{
+  .invest {
     margin-left: 1rem !important;
   }
   .pb-feature {
@@ -357,42 +350,61 @@
     text-align: center;
     align-items: center;
   }
-  .m-pb{
+  .m-pb {
     width: 100%;
   }
-  .m-pb button{
+  .m-pb button {
     margin-left: 30rem !important;
     width: 100% !important;
   }
-  .im-b-img{
+  .im-b-img {
     display: flex;
     margin-top: 5rem !important;
   }
-  .cart-sec-2{
+  .cart-sec-2 {
     display: none;
   }
-  .mobile-cart{
+  .mobile-cart {
     display: block;
   }
-  .c-text{
+  .c-text {
     width: 100% !important ;
     font-size: 3rem !important;
   }
-  .crt-img img{
-    width: 15rem ;
+  .crt-img img {
+    width: 15rem;
   }
-  .cart-second{
+  .cart-second {
     margin-top: 6rem !important;
   }
-  .mobile-top{
-    display: flex !important;
-  }
-  .mobile-cart h5{
+  .mobile-cart h5 {
     margin-top: 10rem !important;
   }
-  .partners-sections{
+  .partners-sections {
     display: none;
   }
-
+ 
+  .im-b-img img{
+    width: 35rem !important;
+  }
+  .your-credit-tex p,.your-credit-tex span{
+    font-size: 3.5rem !important;
+  }
+  .your-credit-tex{
+      margin-top: 10rem !important;
+  }
+  .mobile-top{
+    gap: 10rem !important;
+  }
+  .mo-li li{
+    font-size: 3rem !important;
+  }
+  .container-f{
+    margin-left: 3rem !important;
+  }
+  .card-body-1{
+    margin-bottom: 20rem !important;
+  }
+ 
 }
 

@@ -258,3 +258,8 @@ h6 {
 .mobile-cart{
   display: none;
 }
+.mobile-top{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
