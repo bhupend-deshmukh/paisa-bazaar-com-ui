@@ -5,7 +5,6 @@
   }
 
   .container-f {
-    /* display: flex; */
     position: relative;
     top: 3rem;
   }
@@ -47,9 +46,11 @@
   .pb-desc {
     font-size: 1.5rem;
   }
-
   .card-body-1 {
     height: 10rem !important;
+  }
+  .test{
+    margin-bottom: 2rem;
   }
   .c-text {
     font-size: 1.5rem !important;
@@ -243,7 +244,11 @@
 }
 @media (max-width: 550px){
   .pb-img{
-    margin-left: 1rem;
+    display: flex;
+    justify-content: start;
+  }
+  .pb-img img{
+    height: 6rem;
   }
   .mobile-cart,.tropy-sec,.about-work-sections,.download-section{
     padding: 1rem;
@@ -332,6 +337,9 @@
   .mb-footer{
     margin-left: 2rem !important;
   }
+  .pb-img{
+    margin-left: 2rem !important;
+  }
   .none-cart{
     display: none !important;
   }
@@ -377,7 +385,7 @@
     margin-top: 6rem !important;
   }
   .mobile-top{
-    display: flex;
+    display: flex !important;
   }
   .mobile-cart h5{
     margin-top: 10rem !important;
@@ -387,3 +395,4 @@
   }
 
 }
+
