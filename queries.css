@@ -242,7 +242,16 @@
   }
 }
 @media (max-width: 550px){
-  
+  .pb-img{
+    margin-left: 1rem;
+  }
+  .mobile-cart,.tropy-sec,.about-work-sections,.download-section{
+    padding: 1rem;
+  }
+  .footer-down{
+    padding: 0 .5rem 0 .5rem;
+  }
+
   .first{
     display: flex;
   }
@@ -376,4 +385,5 @@
   .partners-sections{
     display: none;
   }
+
 }
