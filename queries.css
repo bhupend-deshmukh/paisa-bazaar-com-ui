@@ -5,8 +5,9 @@
   }
 
   .container-f {
+    /* display: flex; */
     position: relative;
-    top: 2rem;
+    top: 3rem;
   }
   .p-b-img img {
     width: 20rem !important;
@@ -81,7 +82,7 @@
     width: 30rem !important;
   }
   .card-body-1 {
-    width: 20rem !important;
+    width: 90rem !important;
     height: 15rem !important;
   }
 
@@ -279,6 +280,9 @@
   .download-section p{
     font-size: 2.5rem !important;
   }
+  .mmmm{
+    display: flex !important;
+  }
   .im-b-img{
     display: flex !important;
     justify-content: center;
@@ -345,6 +349,31 @@
   }
   .im-b-img{
     display: flex;
-    margin-top: rem !important;
+    margin-top: 5rem !important;
+  }
+  .cart-sec-2{
+    display: none;
+  }
+  .mobile-cart{
+    display: block;
+  }
+  .c-text{
+    width: 100% !important ;
+    font-size: 3rem !important;
+  }
+  .crt-img img{
+    width: 15rem ;
+  }
+  .cart-second{
+    margin-top: 6rem !important;
+  }
+  .mobile-top{
+    display: flex;
+  }
+  .mobile-cart h5{
+    margin-top: 10rem !important;
+  }
+  .partners-sections{
+    display: none;
   }
 }

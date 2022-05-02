@@ -225,6 +225,7 @@ h6 {
 .s-icon ion-icon {
   width: 20px;
   height: 20px;
+  cursor: pointer;
 }
 
 .ind-text {
@@ -245,4 +246,15 @@ h6 {
 .invest{
   display: flex;
   flex-direction: row;
+}
+
+.invest-div :hover{
+  cursor: pointer;
+  color: rgb(236, 236, 236) !important;
+}
+.mb-footer :hover{
+  color: rgb(236, 236, 236) !important;
+}
+.mobile-cart{
+  display: none;
 }
