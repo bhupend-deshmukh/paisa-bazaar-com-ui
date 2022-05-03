@@ -183,7 +183,7 @@
     width: 7rem !important;
   }
   .mob-fe {
-    margin-left: 5rem;
+    margin-left: 1rem;
   }
   .wrap-mob {
     margin-right: -30rem !important;
@@ -270,14 +270,48 @@
     width: 7rem !important;
     height: 3rem;
   }
+  .about-us,.work-us {
+    width: 90rem !important;
+    height: 70rem;
+  }
+  .about-img img{
+    margin-top: 10rem !important;
+    width: 40rem !important;
+  }
+  .btn-abw button{
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 11rem !important;
+  }
+  
+  .pb-img{
+    margin-left: 2rem !important;
+  }
+  .pb-img img{
+    width: 6rem !important;
+    height: 6rem;
+  }
+  .text-primary{
+    font-size: 2rem !important;
+  }
+  .pb-desc{    
+    font-size: 2rem !important;
+  }
+  .pb-logoss img{
+    margin-left: -2em !important;
+    width: 20rem !important;
+  }
 }
 @media (max-width: 550px) {
+  .pb-logoss img{
+    width: 30rem !important ;
+  }
   .partnerCard {
     width: 15rem !important;
     height: 10rem !important;
   }
-  .pb-img {
-    margin-left: 1rem;
+  .pb-img{
+    margin-left: 3.5rem !important;
   }
   .our-investor {
     padding: 1rem;
@@ -322,10 +356,10 @@
     font-size: 1.8rem !important;
   }
   .text-primary {
-    font-size: 2.5rem !important;
+    font-size: 3rem !important;
   }
   .pb-desc {
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
   }
   .p-dsc li {
     font-size: 2.5rem !important;
@@ -392,6 +426,7 @@
     align-items: center;
   }
   .m-pb {
+    padding-left: 1rem !important;
     width: 100%;
   }
   .m-pb button {
@@ -450,4 +485,6 @@
   .mlp {
     display: flex !important;
   }
+
 }
+
