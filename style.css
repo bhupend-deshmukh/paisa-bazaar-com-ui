@@ -263,3 +263,6 @@ h6 {
   flex-direction: row;
   margin-bottom: 50px;
 }
+.down-l p{
+  font-size: 1.5rem !important;
+}

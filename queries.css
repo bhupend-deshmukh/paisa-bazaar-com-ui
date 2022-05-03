@@ -4,7 +4,6 @@
     display: none;
   }
   .container-f {
-    /* display: flex; */
     position: relative;
     top: 3rem;
   }
@@ -46,9 +45,6 @@
   .pb-desc {
     font-size: 1.5rem;
   }
-  .mb-footer{
-    gap: 1.5rem !important;
-  }
 
   .card-body-1 {
     height: 10rem !important;
@@ -56,12 +52,18 @@
   .c-text {
     font-size: 1.5rem !important;
   }
-  .test1{
+  .test1 {
     margin-bottom: 2rem !important;
   }
 }
 
 @media (max-width: 775px) {
+  .as-img,
+  .gs-img {
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border: 1px solid rgb(79, 68, 68);
+  }
   .footer-groups {
     flex-direction: column;
     gap: 20px;
@@ -96,6 +98,9 @@
   }
   .work-us p {
     font-size: 2.5rem !important;
+  }
+  .down-l p {
+    font-size: 2rem !important;
   }
   .work-us {
     width: 65rem;
@@ -235,9 +240,7 @@
   .ind {
     display: none !important;
   }
-  .investor {
-    display: none !important;
-  }
+
   .m-pb {
     display: flex !important;
     flex-direction: column !important;
@@ -245,10 +248,39 @@
   .mb-top {
     margin-top: 5rem !important;
   }
+  .partners-sections {
+    padding: 0.5 rem;
+  }
+  .h-b {
+    display: none;
+  }
+  .all-btn-pb button {
+    font-size: 2rem !important;
+  }
+  .hide-footer-card {
+    display: none !important;
+  }
+  .our-investor {
+    padding: 1rem;
+  }
+  .aur-investor-card {
+    padding: 0 7rem 0 7rem;
+  }
+  .aur-investor-card img {
+    width: 7rem !important;
+    height: 3rem;
+  }
 }
 @media (max-width: 550px) {
+  .partnerCard {
+    width: 15rem !important;
+    height: 10rem !important;
+  }
   .pb-img {
     margin-left: 1rem;
+  }
+  .our-investor {
+    padding: 1rem;
   }
   .mobile-cart,
   .tropy-sec,
@@ -259,7 +291,14 @@
   .footer-down {
     padding: 0 0.5rem 0 0.5rem;
   }
+  .aur-investor-card img {
+    width: 10rem !important;
+    height: 7rem;
+  }
 
+  .hd1 {
+    display: none;
+  }
   .first {
     display: flex;
   }
@@ -301,11 +340,6 @@
     display: flex !important;
     justify-content: center;
   }
-  .your-credit-tex p,
-  button {
-    list-style: none;
-    text-align: center;
-  }
   .your-credit-tex li {
     display: flex;
     justify-content: center !important;
@@ -315,7 +349,11 @@
     margin-left: auto !important;
     margin-right: auto !important;
   }
+  .down-l p {
+    font-size: 3rem !important;
+  }
   .second {
+    margin-top: 2rem !important;
     padding-left: 1rem !important;
   }
   .all-pay {
@@ -333,14 +371,12 @@
     margin-left: 10rem !important;
   }
   .google-apple {
-    gap: 30rem !important;
+    gap: 15rem !important;
   }
   .mb-footer {
     margin-left: 2rem !important;
   }
-  .none-cart {
-    display: none !important;
-  }
+
   .second {
     margin-left: 1rem !important;
   }
@@ -385,27 +421,33 @@
   .mobile-cart h5 {
     margin-top: 10rem !important;
   }
-  .partners-sections {
-    display: none;
-  }
-  .im-b-img img{
+  .im-b-img img {
     width: 35rem !important;
   }
-  .your-credit-tex p,.your-credit-tex span{
+  .your-credit-tex p,
+  .your-credit-tex span {
     font-size: 3.5rem !important;
   }
-  .your-credit-tex{
-      margin-top: 10rem !important;
+  .your-credit-tex {
+    margin-top: 10rem !important;
   }
-  .mobile-top{
+  .mobile-top {
     gap: 10rem !important;
   }
-  .mo-li li{
+  .mo-li li {
     font-size: 3rem !important;
   }
-  .container-f{
+  .container-f {
     margin-left: 3rem !important;
   }
 
+  .gs-img img {
+    width: 30rem !important;
+  }
+  .as-img img {
+    width: 30rem !important;
+  }
+  .mlp {
+    display: flex !important;
+  }
 }
-
