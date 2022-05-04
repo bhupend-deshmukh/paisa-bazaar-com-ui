@@ -16,7 +16,6 @@ html {
   top: 0;
   z-index: 1;
   box-shadow: 0 8px 24px 0 rgb(23 50 101 / 30%);
-  background-color: white !important;
 }
 
 .h-content,
@@ -29,7 +28,7 @@ select {
 .Sign-in-btn button {
   color: #1b1dc7;
   cursor: pointer;
-} 
+}
 .your-credit-text h1 {
   width: 65%;
   font-size: 1.7rem;
@@ -148,15 +147,11 @@ h6 {
   background-color: #f3f9ff;
 }
 .partnerCard img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 75%;
   height: 100%;
 }
 
 .partnerCard {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 5rem;
@@ -173,16 +168,6 @@ h6 {
 .investor {
   background-color: #1c1d2e;
 }
-
-.aur-investor-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3rem;
-  width: 5rem;
-  background-color: rgb(11, 10, 10);
-}
-
 .aur-investor-card img {
   height: 1.5rem;
   width: 4rem;
@@ -210,6 +195,14 @@ h6 {
 .invest p {
   font-size: 0.9rem;
   color: grey;
+}
+.aur-investor-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 5rem;
+  background-color: rgb(11, 10, 10);
 }
 .p-txt p {
   font-size: 0.7rem;
@@ -243,26 +236,26 @@ h6 {
   flex-direction: row;
   gap: 20px;
 }
-.invest{
+.invest {
   display: flex;
   flex-direction: row;
 }
 
-.invest-div :hover{
+.invest-div :hover {
   cursor: pointer;
   color: rgb(236, 236, 236) !important;
 }
-.mb-footer :hover{
+.mb-footer :hover {
   color: rgb(236, 236, 236) !important;
 }
-.mobile-cart{
+.mobile-cart {
   display: none;
 }
-.mobile-top{
+.mobile-top {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
 }
-.down-l p{
+.down-l p {
   font-size: 1.5rem !important;
 }

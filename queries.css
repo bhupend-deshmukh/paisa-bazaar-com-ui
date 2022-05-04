@@ -64,16 +64,10 @@
     padding: 1rem 1.5rem 1rem 1.5rem;
     border: 1px solid rgb(79, 68, 68);
   }
-  .footer-groups {
-    flex-direction: column;
-    gap: 20px;
-  }
   .p-b-img img {
     width: 30rem !important;
   }
-  .about-work-block {
-    display: grid !important;
-  }
+ 
   .about-us h5 {
     font-size: 5rem !important;
   }
@@ -81,18 +75,18 @@
     font-size: 2.5rem !important;
   }
   .about-us {
-    margin-bottom: 5rem;
-    width: 65rem;
-    height: 42rem;
+    margin-bottom: 5rem !important;
+    /* width: 65rem;
+    height: 42rem; */
   }
-  .about-img img {
+  /* .about-img img {
     width: 30rem !important;
-  }
+  } */
   .card-body-1 {
     width: 90rem !important;
     height: 15rem !important;
   }
-
+  
   .work-us h5 {
     font-size: 5rem !important;
   }
@@ -101,6 +95,10 @@
   }
   .down-l p {
     font-size: 2rem !important;
+  }
+  .footer-groups {
+    flex-direction: column;
+    gap: 20px;
   }
   .work-us {
     width: 65rem;
@@ -129,6 +127,9 @@
   .container-f {
     margin-top: 6rem !important;
   }
+  .about-work-block {
+    display: grid !important;
+  }
   .txt-p {
     font-size: 2rem !important;
   }
@@ -145,9 +146,7 @@
   .invest p {
     font-size: 2rem;
   }
-  .p-b-group {
-    flex-direction: column;
-  }
+  
 
   .down-l p {
     font-size: 2.5rem;
@@ -160,24 +159,25 @@
     width: 20rem !important;
   }
 
-  .invest {
+  /* .invest {
     display: flex !important;
     flex-direction: column;
-  }
+  } */
 
   .s-icon {
+    /* justify-content: space-around; */
     display: flex;
   }
 
-  .mo-i {
+  /* .mo-i {
     margin-left: auto !important  ;
     margin-right: auto !important;
-  }
-  .all-pay {
+  } */
+  /* .all-pay {
     display: flex !important;
     flex-direction: column;
     justify-content: start;
-  }
+  } */
   .p-img img {
     margin-left: -2rem !important;
     width: 7rem !important;
@@ -205,10 +205,11 @@
     height: 5rem !important;
   }
   .s-icon {
-    display: flex;
+    /* display: flex; */
     margin-left: -3rem;
     gap: 4rem;
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    /* margin-bottom: 2rem; */
   }
   .first img {
     margin-left: 0.5rem !important;
@@ -217,16 +218,19 @@
   .payment-method {
     display: none;
   }
+  .p-b-group {
+    flex-direction: column;
+  }
   .paisabazaar {
     margin-left: -0.1rem !important;
   }
-  .social-app {
+  /* .social-app {
     display: flex !important;
-  }
-  .india-footer {
+  } */
+  /* .india-footer {
     display: flex;
     flex-direction: column;
-  }
+  } */
   .f-ts p {
     font-size: 1.7rem !important;
   }
@@ -241,10 +245,10 @@
     display: none !important;
   }
 
-  .m-pb {
+  /* .m-pb {
     display: flex !important;
     flex-direction: column !important;
-  }
+  } */
   .mb-top {
     margin-top: 5rem !important;
   }
@@ -367,19 +371,19 @@
   .download-section p {
     font-size: 2.5rem !important;
   }
-  .mmmm {
+  /* .mmmm {
     display: flex !important;
-  }
-  .im-b-img {
+  } */
+  /* .im-b-img {
     display: flex !important;
     justify-content: center;
-  }
-  .your-credit-tex li {
+  } */
+  /* .your-credit-tex li {
     display: flex;
     justify-content: center !important;
-  }
+  } */
   .your-credit-tex button {
-    display: flex;
+    /* display: flex; */
     margin-left: auto !important;
     margin-right: auto !important;
   }
@@ -395,9 +399,9 @@
   }
 
   /* foooter down temp*/
-  .invest-div {
+  /* .invest-div {
     gap: 10rem !important;
-  }
+  } */
   .s-icon {
     gap: 8rem !important;
   }
@@ -417,14 +421,14 @@
   .invest {
     margin-left: 1rem !important;
   }
-  .pb-feature {
+  /* .pb-feature {
     width: 80rem;
     margin-left: 10rem !important;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-  }
+  } */
   .m-pb {
     padding-left: 1rem !important;
     width: 100%;
@@ -482,9 +486,7 @@
   .as-img img {
     width: 30rem !important;
   }
-  .mlp {
-    display: flex !important;
-  }
+  
 
 }
 
